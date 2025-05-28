@@ -1,71 +1,73 @@
-#PROJETO FRONT
+# Projeto de Cadastro de Usuários
 
-##Descrição
+Este é um projeto simples feito com *Spring Boot* e *Thymeleaf* para cadastro e listagem de usuários.
 
-Criamos esse Projeto para seguir tais funções, Realizar cadastro,Deletar,Excluir e Pesquisar, de forma que as informações fiquem salvas em um Banco de Dados.
-Utilizamos o Spring Boot, nele geramos tais dependencias;
+## 📋 Funcionalidades
 
-Tymeleaf, 
-Spring dev tools,
-Spring framework,
-Lombook,
-Bcypt,
-H2. 
+- Cadastro de usuários (email, nome de usuário e senha)
+- Listagem de usuários salvos no banco de dados
 
-##Instrução para instalação
+## 🚀 Como executar o projeto
 
+### Pré-requisitos
 
-Para fácil instalação solicitamos que crie utilizando o Spring Initializr,ao chegar escolha as configurações; 
+- Java 17 ou superior
+- Maven
+- Banco de dados H2, PostgreSQL ou outro compatível (ajustar no application.properties)
+- IDE (IntelliJ, Eclipse, VS Code)
 
-language:JAVA
+### Passo a passo
 
-Project:Grandle-Groovy
+1. Clone o repositório:
+   bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   cd seu-repositorio
 
-Spring-boot:3.5.0
+2. Compile o projeto com Maven:
+   bash
+   mvn clean install
 
-Packaging:Jar
+3. Rode a aplicação:
+   bash
+   mvn spring-boot:run
 
-Após selecionados clique em Generate,que irá gerar o código automaticamente,após isso vá no arquivo e verá que está zipado,extraia e abra em um ambiente de Desenvolvimento.
+### 📁 Estrutura de diretórios importante
 
-Ambiente de Desenvolvimento recomendado: Visual Studio Code ou InteliJ.
-
-Em caso de erro,verifique se as extensões do ambiente de Serviços estão aptas.
-
-
-##instrução de uso
-
-Após estar com a pasta aberta dentro de um ambiente de Desenvolvimento,faça o seguinte passo:
-
-Abra o código na web pela localhost,utilizando o código que está no Controller dessa forma;
-
-
-localhost:8080/cadastro
-
-
-No site a interface foi feita em html,então solicitamos os dados,tanto para cadastrar,atualizar,deletar e pesquisar.
-Cada etapa está em uma página no site,então,faça o cadastro e modifique pelos botões nas páginas.
-
-Exemplo:
-
-Insira as informações desejadas e clique botão para confirmar.
-
-CADASTRO:
-nome:gabriel
-
-email:gabriel32@gmail.com
-
-usuário:bzinho2635
+src/
+└── main/
+    ├── java/
+    │   └── com.aula.front/
+    │       └── User/
+    │           ├── UserController.java
+    │           ├── UserModel.java
+    │           └── UserRepository.java
+    └── resources/
+        ├── templates/
+        │   ├── cadastro.html
+        │   └── usuarios.html
+        └── application.properties
 
 
-Cadastrar
+### ⚙️ Configuração do banco de dados
+
+No arquivo application.properties, configure o banco de dados. Exemplo usando H2:
 
 
+spring.datasource.url=jdbc:h2:mem:usuariosdb
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.h2.console.enabled=true
 
+Acesse o console do H2:
 
-Verifique se o código está rodando,se sim,abra na sua web o seguinte site o site H2 console, que é o banco de dados.
-Caso o código rode, envie as informações desejadas e atualize o h2,banco de dados que irá aparecer as modificaçoes.
+http://localhost:8080/h2-console
+```
 
-
+### ✍️ Autor
+Feito por Gabriel da Silva Pereira - 11232101101<br>
+Feito por Wellington de Castro - 11232101354
 
 
 
