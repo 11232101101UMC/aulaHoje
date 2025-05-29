@@ -6,7 +6,8 @@ Este é um projeto simples feito com *Spring Boot* e *Thymeleaf* para cadastro e
 
 - Cadastro de usuários (email, nome de usuário e senha)
 - Listagem de usuários salvos no banco de dados
-
+- Exclusão de usuários salvos no banco de dados
+- Pesquisa de usuários salvos no banco de dados
 ## 🚀 Como executar o projeto
 
 ### Pré-requisitos
@@ -33,19 +34,24 @@ Este é um projeto simples feito com *Spring Boot* e *Thymeleaf* para cadastro e
 
 ### 📁 Estrutura de diretórios importante
 
-src/
-└── main/
-    ├── java/
-    │   └──java/com/aula/front /
-    │       └── User/
-    │           ├── UserController.java
-    │           ├── UserModel.java
-    │           └── UserRepository.java
-    └── resources/
-        ├── templates/
-        │   ├── cadastro.html
-        │   └── usuarios.html
-        └── application.properties
+📁 src/
+└──  main/
+├──  java/
+│ └── com/aula/front/
+│ └── User/
+│ ├── UserController.java 
+│ ├── UserModel.java 
+│ └── UserRepository.java 
+│
+└── resources/
+├──  templates/ 
+│ ├── cadastro.html  
+│ ├── exemplo_form.html 
+│ ├── detalhes.html 
+│ ├── usuarios.html 
+│ └── login.html 
+│
+└── application.properties 
 
 
 ### ⚙️ Configuração do banco de dados
