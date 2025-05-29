@@ -37,7 +37,7 @@ Este é um projeto simples feito com *Spring Boot* e *Thymeleaf* para cadastro,l
 📁 src/
 └──  main/
 ├──  java/
-│ └── com/aula/front/
+│ └──java/com/aula/front
 │ └── User/
 │ ├── UserController.java 
 │ ├── UserModel.java 
