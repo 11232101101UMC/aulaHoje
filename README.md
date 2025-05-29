@@ -2,13 +2,13 @@
 
 Este é um projeto simples feito com *Spring Boot* e *Thymeleaf* para cadastro e listagem de usuários.
 
-## 📋 Funcionalidades
+## Funcionalidades
 
 - Cadastro de usuários (email, nome de usuário e senha)
 - Listagem de usuários salvos no banco de dados
 - Exclusão de usuários salvos no banco de dados
 - Pesquisa de usuários salvos no banco de dados
-## 🚀 Como executar o projeto
+##  Como executar o projeto
 
 ### Pré-requisitos
 
