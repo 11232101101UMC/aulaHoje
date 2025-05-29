@@ -1,6 +1,6 @@
 # Projeto de Cadastro de Usuários
 
-Este é um projeto simples feito com *Spring Boot* e *Thymeleaf* para cadastro e listagem de usuários.
+Este é um projeto simples feito com *Spring Boot* e *Thymeleaf* para cadastro,listagem,exclusão e Pesquisa de usuário.
 
 ## Funcionalidades
 
