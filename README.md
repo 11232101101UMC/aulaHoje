@@ -7,7 +7,7 @@ Este é um projeto simples feito com *Spring Boot* e *Thymeleaf* para cadastro,l
 - Cadastro de usuários (email, nome de usuário e senha)
 - Listagem de usuários salvos no banco de dados
 - Exclusão de usuários salvos no banco de dados
-- Pesquisa de usuários salvos no banco de dados
+
 ##  Como executar o projeto
 
 ### Pré-requisitos
@@ -31,27 +31,6 @@ Este é um projeto simples feito com *Spring Boot* e *Thymeleaf* para cadastro,l
 3. Rode a aplicação:
    bash
    mvn spring-boot:run
-
-### 📁 Estrutura de diretórios importante
-
-📁 src/
-└──  main/
-├──  java/
-│ └──agendamogi/
-│ └── example.agendamogi/
-│ ├── Controller
-│ ├── ContatoController 
-│ └── ContatoRepository                           
-│
-└── resources/
-├──  contatos/ 
-│ ├── form.html  
-│ ├── listar.html 
-│ ├── form.html 
-│ ├── lista.html 
-│ 
-│
-└── application.properties 
 
 
 ### ⚙️ Configuração do banco de dados
