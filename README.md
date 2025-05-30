@@ -14,7 +14,7 @@ Este é um projeto simples feito com *Spring Boot* e *Thymeleaf* para cadastro,l
 
 - Java 17 ou superior
 - Maven
-- Banco de dados H2, PostgreSQL ou outro compatível (ajustar no application.properties)
+- Banco de dados H2(ajustar no application.properties)
 - IDE (IntelliJ, Eclipse, VS Code)
 
 ### Passo a passo
@@ -37,19 +37,19 @@ Este é um projeto simples feito com *Spring Boot* e *Thymeleaf* para cadastro,l
 📁 src/
 └──  main/
 ├──  java/
-│ └──java/com/aula/front
-│ └── User/
-│ ├── UserController.java 
-│ ├── UserModel.java 
-│ └── UserRepository.java 
+│ └──agendamogi/
+│ └── example.agendamogi/
+│ ├── Controller
+│ ├── ContatoController 
+│ └── ContatoRepository                           
 │
 └── resources/
-├──  templates/ 
-│ ├── cadastro.html  
-│ ├── exemplo_form.html 
-│ ├── detalhes.html 
-│ ├── usuarios.html 
-│ └── login.html 
+├──  contatos/ 
+│ ├── form.html  
+│ ├── listar.html 
+│ ├── form.html 
+│ ├── lista.html 
+│ 
 │
 └── application.properties 
 
